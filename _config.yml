@@ -1,0 +1,21 @@
+# Site settings
+title: Kendall R. 
+header-img: img/home-bg.png
+email: kendallradovich91@gmail.com
+copyright_name: kayrad3773
+description: > # this means to ignore newlines until "baseurl:"
+  Kendall's Little Corner of the Web
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: 
+github_username:  kayrad3773
+learn_profile: kayrad3773
+email_username: kendallradovich91@gmail.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
